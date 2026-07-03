@@ -1,0 +1,118 @@
+# Representative Service — Accounts Receivable Lifecycle
+
+## Purpose
+
+The Accounts Receivable Lifecycle demonstrates how Gildmark models customer obligations as governed operational lifecycles rather than as collections of accounting transactions.
+
+Rather than centering the architecture on invoices, journal entries, or receivable balances, the platform models the operational progression of a customer obligation from creation through final settlement.
+
+The objective is not simply to produce accurate accounting.
+
+It is to ensure that financial recognition emerges naturally from governed operational behavior.
+
+---
+
+# The Problem
+
+Traditional Accounts Receivable systems are frequently organized around financial documents and accounting events.
+
+Invoices are created.
+
+Payments are applied.
+
+Adjustments are posted.
+
+Credits are issued.
+
+Balances are reconciled.
+
+While this approach produces correct accounting, business rules often become distributed across invoice processing, payment application, collections, adjustments, reporting, and financial posting logic.
+
+Operational behavior and accounting behavior gradually become intertwined.
+
+As systems mature, maintaining consistency between customer activity and financial records becomes increasingly complex.
+
+---
+
+# Architectural Observation
+
+A receivable is not fundamentally an invoice.
+
+It is an operational obligation.
+
+That obligation progresses through a governed lifecycle.
+
+It may be established, recognized, partially satisfied, disputed, adjusted, settled, written off, or otherwise resolved.
+
+Invoices communicate the obligation.
+
+Accounting recognizes the obligation.
+
+Neither defines the operational reality.
+
+The operational lifecycle is the authoritative business concept.
+
+---
+
+# Architectural Decision
+
+Accounts Receivable was therefore modeled as an explicit operational lifecycle governed by state transitions.
+
+Customer obligations exist independently of accounting representation.
+
+Lifecycle state governs which operational actions are permitted.
+
+Payments, adjustments, disputes, settlements, and write-offs become governed operational events that transition the lifecycle in well-defined ways.
+
+Financial postings are generated as consequences of those operational events rather than serving as the primary mechanism governing behavior.
+
+---
+
+# Architectural Characteristics
+
+The Accounts Receivable Lifecycle demonstrates several recurring architectural patterns.
+
+* Customer obligations are modeled independently of accounting representation.
+* Lifecycle state governs operational behavior.
+* Governance prevents inconsistent financial operations.
+* Accounting is derived from operational truth.
+* Financial history preserves complete operational provenance.
+* Service contracts expose operational capabilities rather than accounting procedures.
+
+Each characteristic is a direct application of the Architectural Philosophy and Design Principles described elsewhere in this portfolio.
+
+---
+
+# Representative Evidence
+
+The Accounts Receivable Lifecycle is supported by multiple implementation artifacts, including:
+
+* Service contracts
+* Lifecycle state model
+* API surface
+* Architectural decision records
+* Operational services
+* Accounting generation logic
+* Automated tests
+
+Collectively, these artifacts demonstrate that architectural philosophy, design principles, and implementation remain consistently aligned throughout the lifecycle.
+
+---
+
+# Lessons
+
+Accounts Receivable illustrates an important characteristic of the Gildmark architecture.
+
+Although receivables are traditionally viewed as accounting functionality, the platform treats them primarily as governed operational commitments.
+
+Accounting remains essential.
+
+It simply occupies a different architectural role.
+
+This same distinction appears throughout the platform.
+
+Operational behavior is modeled first.
+
+Financial recognition is derived from governed operational truth.
+
+The resulting architecture maintains clearer separation between business operations and financial representation while preserving complete traceability between them.

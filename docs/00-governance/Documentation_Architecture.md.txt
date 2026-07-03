@@ -1,0 +1,366 @@
+# Documentation_Architecture.md
+
+**Document Type:** Governance
+**Status:** Draft
+**Authority:** Constitutional
+**Question Answered:** *How is knowledge organized and governed within the Gildmark Portfolio?*
+
+---
+
+# Purpose
+
+This document defines the architectural governance of the Gildmark Portfolio documentation.
+
+The portfolio is a governed knowledge architecture rather than a collection of documents. Every document exists within an explicit structural hierarchy, participates in a defined knowledge graph, and contributes evidence toward demonstrating architectural judgment.
+
+This document establishes the rules governing the creation, organization, review, promotion, and maintenance of all portfolio documentation.
+
+---
+
+# Objectives
+
+The documentation architecture exists to:
+
+* communicate architectural judgment clearly
+* organize knowledge into a coherent structure
+* eliminate ambiguity and redundancy
+* establish traceability from claims to evidence
+* support incremental growth without structural degradation
+* demonstrate the same architectural discipline used throughout the Gildmark platform
+
+---
+
+# Governing Principles
+
+## DA-001 — Single Question Principle
+
+Every document shall answer exactly one question.
+
+The governing question defines the document's scope.
+
+All sections within a document shall contribute directly to answering that question.
+
+If a document attempts to answer multiple independent questions, it shall be decomposed into separate documents.
+
+---
+
+## DA-002 — Single Parent Principle
+
+Every document shall occupy exactly one location within the documentation hierarchy.
+
+Each document shall have:
+
+* one parent
+* zero or more child documents
+
+Documents may be referenced from multiple locations, but architectural ownership shall remain singular.
+
+---
+
+## DA-003 — Knowledge Type Principle
+
+Every document shall declare its knowledge type.
+
+Knowledge types define the role a document performs within the portfolio.
+
+Examples include:
+
+* Governance
+* Thesis
+* Concept
+* Definition
+* Principle
+* Pattern
+* Decision
+* Process
+* Evidence
+* Case Study
+* Demonstration
+* Reference
+
+Knowledge types are architectural classifications rather than presentation styles.
+
+---
+
+## DA-004 — Evidence Traceability Principle
+
+Every architectural claim shall ultimately trace to evidence.
+
+Evidence may include:
+
+* architectural decisions
+* design documents
+* implementation artifacts
+* source code
+* service contracts
+* engineering records
+* demonstrations
+* test results
+
+Claims without supporting evidence shall not appear within canonical portfolio documents.
+
+---
+
+## DA-005 — Separation of Knowledge
+
+Different forms of knowledge shall remain distinct.
+
+Explanation is not evidence.
+
+Evidence is not implementation.
+
+Implementation is not architecture.
+
+Architecture is not philosophy.
+
+Each document shall contain one primary form of knowledge and reference other knowledge rather than duplicate it.
+
+---
+
+# 1. Document Hierarchy
+
+## Purpose
+
+The documentation hierarchy defines architectural ownership.
+
+It answers:
+
+> *Where does this document belong?*
+
+The hierarchy forms a rooted tree.
+
+Each document has exactly one parent.
+
+Each document may have zero or more child documents.
+
+Parent documents establish context.
+
+Child documents elaborate or specialize that context.
+
+Hierarchy represents ownership rather than dependency.
+
+Folder structure should reflect the hierarchy wherever practical.
+
+Hierarchy shall remain stable over time.
+
+---
+
+# 2. Dependency Graph
+
+## Purpose
+
+The dependency graph defines semantic relationships between documents.
+
+It answers:
+
+> *What knowledge does this document depend upon?*
+
+Dependency relationships are independent of hierarchical ownership.
+
+A document may depend upon multiple other documents.
+
+Supported dependency relationships include:
+
+* depends_on
+* governed_by
+* elaborates
+* references
+* demonstrates
+* evidenced_by
+* supersedes
+
+Dependencies shall be acyclic.
+
+Circular knowledge dependencies are prohibited.
+
+The dependency graph should enable readers to navigate concepts logically without duplicating information.
+
+---
+
+# 3. Naming Conventions
+
+## Purpose
+
+Document names shall communicate purpose unambiguously.
+
+### Document Names
+
+Document names shall:
+
+* describe a single concept
+* remain stable
+* avoid implementation status
+* avoid version numbers within filenames
+* use consistent title formatting
+
+Examples:
+
+* Documentation_Architecture.md
+* Architecture_Thesis.md
+* Operational_Truth_Engine.md
+* Evidence_Register.md
+
+### Document Metadata
+
+Each document shall declare:
+
+* title
+* knowledge type
+* governing question
+* authority
+* status
+
+Optional metadata may include:
+
+* parent
+* dependencies
+* evidence references
+* supersedes
+* superseded by
+
+Naming shall prioritize discoverability over brevity.
+
+---
+
+# 4. Governance
+
+## Purpose
+
+Governance defines the rules by which the documentation architecture evolves.
+
+Every document shall:
+
+* answer exactly one question
+* declare a knowledge type
+* occupy exactly one position within the hierarchy
+* declare architectural ownership
+* avoid conceptual duplication
+* reference supporting evidence where applicable
+
+Governance favors refinement through decomposition rather than expansion through accumulation.
+
+When scope increases beyond the governing question, new documents shall be introduced instead of extending existing ones indefinitely.
+
+Canonical documents should evolve through explicit supersession rather than continual restructuring.
+
+---
+
+# 5. Promotion Rules
+
+## Purpose
+
+Documents progress through defined maturity states.
+
+Each state represents increasing architectural confidence.
+
+### Draft
+
+Initial concept.
+
+Structure and scope may change.
+
+### Working
+
+Question defined.
+
+Hierarchy established.
+
+Dependencies identified.
+
+### Reviewed
+
+Architectural review completed.
+
+Scope validated.
+
+Structural consistency confirmed.
+
+### Accepted
+
+Approved for use within the portfolio.
+
+Eligible to serve as a dependency for other accepted documents.
+
+### Canonical
+
+Stable reference document.
+
+Forms part of the governed knowledge architecture.
+
+Changes occur only through formal supersession or controlled revision.
+
+### Archived
+
+Retained for historical reference.
+
+No longer participates in the active documentation architecture.
+
+Promotion requires satisfying the entry criteria for the next maturity state.
+
+Promotion shall never occur solely because a document appears complete.
+
+---
+
+# 6. Review Process
+
+## Purpose
+
+Reviews ensure that the documentation architecture becomes increasingly coherent over time.
+
+Every review shall evaluate:
+
+### Structural Review
+
+Does the document belong in its assigned location?
+
+### Scope Review
+
+Does the document answer exactly one question?
+
+### Hierarchy Review
+
+Is the parent-child relationship appropriate?
+
+### Dependency Review
+
+Are all required knowledge dependencies declared?
+
+### Evidence Review
+
+Can every architectural claim be traced to supporting evidence?
+
+### Redundancy Review
+
+Does another document already answer this question?
+
+### Promotion Review
+
+Does the document satisfy the criteria for its proposed maturity level?
+
+Review outcomes may include:
+
+* approve
+* revise
+* decompose
+* merge
+* supersede
+* archive
+
+---
+
+# Documentation Invariants
+
+The following invariants govern the entire portfolio:
+
+1. Every document answers exactly one question.
+2. Every document has exactly one architectural parent.
+3. Every document declares its knowledge type.
+4. Every document declares its governing question.
+5. Hierarchical relationships express ownership.
+6. Dependency relationships express knowledge.
+7. Every significant architectural claim ultimately traces to evidence.
+8. Conceptual duplication is prohibited.
+9. Circular dependencies are prohibited.
+10. Orphan documents are prohibited.
+11. Canonical documents evolve through explicit governance rather than uncontrolled editing.
+12. The documentation architecture shall become more coherent over time.

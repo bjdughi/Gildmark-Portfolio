@@ -1,0 +1,39 @@
+# Evidence Register
+
+## Purpose
+
+This register serves as the authoritative catalog of evidence contained within the Gildmark portfolio.
+
+Each entry represents a concrete artifact produced during the conception, design, implementation, or governance of the platform. Rather than cataloging capabilities directly, the register catalogs the evidence from which those capabilities can be legitimately inferred.
+
+Every significant claim made within this portfolio—including résumé statements, interview talking points, architectural essays, and technical narratives—should trace back to one or more artifacts documented here.
+
+The objective is to ensure that the portfolio remains evidence-driven rather than assertion-driven.
+
+---
+
+## Evidence Classification
+
+| Strength        | Definition                                                                                                                      |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| **Exceptional** | Demonstrates capability rarely documented or executed at an individual contributor level. Represents a distinguishing strength. |
+| **Strong**      | Clearly demonstrates professional capability beyond routine implementation.                                                     |
+| **Supporting**  | Reinforces capabilities demonstrated elsewhere.                                                                                 |
+| **Planned**     | Intended portfolio artifact not yet produced.                                                                                   |
+
+---
+
+# Evidence Register
+
+| Artifact                        | Capabilities Demonstrated                                                                               | Distinguishing Value                                                                                                                                                                                                                                     | Strength    | Portfolio Destination   | Status   |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------- | -------- |
+| High-Level Build Plan           | Enterprise Architecture; Systems Thinking; Technical Leadership; Strategic Planning                     | Demonstrates the ability to decompose a complex enterprise platform into governed implementation phases through explicit dependency management, phased execution, architectural sequencing, and conscious deferral rather than feature-centric planning. | Exceptional | Engineering Process     | Complete |
+| Architectural Decision Register | Architectural Governance; Technical Leadership; Decision Traceability; Long-Term Architectural Thinking | Demonstrates disciplined architectural decision making through explicit documentation, rationale, trade-off analysis, and long-term governance across the platform.                                                                                      | Exceptional | Engineering Process     | Complete |
+| Endpoint Inventory              | API-First Design; Platform Architecture; Integration Architecture                                       | Demonstrates platform-scale API design, explicit endpoint governance, external contract discipline, and architectural consistency across the service surface.                                                                                            | Exceptional | System Architecture     | Complete |
+| Domain Intelligence Sessions    | Domain Modeling; Business Analysis; Requirements Engineering                                            | Demonstrates structured domain exploration and decision making before implementation, emphasizing business understanding over feature development.                                                                                                       | Exceptional | Representative Services | Complete |
+| Engineering Handoff             | Engineering Discipline; Technical Leadership; Delivery Governance                                       | Demonstrates production-quality engineering governance, project continuity, operational maturity, and maintainability.                                                                                                                                   | Exceptional | Engineering Process     | Complete |
+| Technical Debt Register         | Engineering Discipline; Risk Management                                                                 | Demonstrates deliberate management of technical debt, prioritization, and continuous architectural stewardship.                                                                                                                                          | Strong      | Engineering Process     | Complete |
+| CLAUDE.md                       | AI-Assisted Engineering; Engineering Standards; AI Governance                                           | Demonstrates an intentional methodology for AI collaboration through architectural guardrails, engineering conventions, and disciplined human oversight.                                                                                                 | Exceptional | AI Collaboration        | Complete |
+| Platform Positioning            | Product Strategy; Product Architecture                                                                  | Demonstrates strategic thinking around category definition, market positioning, and architectural differentiation.                                                                                                                                       | Strong      | Architecture Thesis     | Complete |
+| Portfolio Overview              | Executive Communication; Technical Communication                                                        | Establishes the architectural narrative and evaluation framework for the portfolio as a whole.                                                                                                                                                           | Strong      | Executive Summary       | Complete |
+| Architectural Essays            | Technical Communication; Thought Leadership                                                             | Demonstrates the ability to articulate architectural philosophy and engineering judgment through long-form technical writing.                                                                                                                            | Planned     | Architectural Essays    | Planned  |
