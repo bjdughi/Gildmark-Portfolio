@@ -2,7 +2,7 @@
 
 **Enterprise Systems Consultant | ERP Strategy | Operational Excellence**
 
-Conroe, Texas • (203)521-5489 • bjdughi@ameritech.net • www.linkedin.com/in/brian-dughi
+Conroe, Texas • (203) 521-5489 • bjdughi@ameritech.net • www.linkedin.com/in/brian-dughi
 
 ---
 
@@ -20,9 +20,8 @@ Seeking opportunities where deep ERP experience, operational insight, and discip
 
 ## PROFESSIONAL EXPERIENCE
 
-### Data-Basics, Inc.
-
-**Senior Software Consultant**
+### Data-Basics, Inc. *(a Jonas Software USA LLC company)* — Bedford, Ohio
+**Senior Software Consultant** | 2015–2026 *(and previously 1999–2007)*
 
 Provided implementation consulting for ERP software serving project-based organizations throughout North America.
 
@@ -35,33 +34,33 @@ Provided implementation consulting for ERP software serving project-based organi
 
 ---
 
-### Environmental Control
+### Environmental Control, Inc. *(a Service Logic company)* — Stratford, Connecticut
+**Business Analyst / Accounting & IT Manager** | 2009–2015
 
-**Accounting & Information Systems Manager**
-
-Managed accounting operations and business systems for a residential and commercial HVAC construction and service organization.
+Managed accounting operations and business systems for a 225+ employee, $55M-revenue multi-location indoor comfort and energy solutions contractor.
 
 * Directed accounting, financial reporting, and ERP administration.
 * Improved operational reporting and management decision support.
 * Integrated accounting, operations, and information technology to improve organizational effectiveness.
+* Prepared monthly financial statements and reconciliations for company directors.
+* Supported audits and business decision analysis with custom ad-hoc queries and reporting.
 
 ---
 
-### Axentis
-
-**Senior Consultant**
+### Axentis, Inc. *(now ARC Logics, a Wolters Kluwer company)* — Cleveland, Ohio
+**Senior Consultant, Professional Client Services** | 2007–2009
 
 Implemented enterprise governance and compliance software for commercial clients.
 
 * Led customer implementations and solution configuration.
 * Supported technical integration and customer adoption.
-* Worked across business and technical teams to deliver successful outcomes.
+* Served as client/engineering liaison for data integration and single sign-on projects.
 
 ---
 
 ## INDEPENDENT PROFESSIONAL WORK
 
-### Gildmark — Enterprise Architecture Portfolio
+### Gildmark — Enterprise Architecture Portfolio | 2026–Present
 
 Independently developed an evidence-based portfolio demonstrating enterprise systems architecture through representative software, engineering methodology, architectural documentation, and responsible AI-assisted engineering.
 
@@ -81,12 +80,12 @@ Portfolio: ______________________
 
 ## EDUCATION
 
-**Master of Business Administration**
+**Master of Business Administration** — Management | University of Akron | 1997–1998
 
-**Bachelor of Business Administration — Finance**
+**Bachelor of Science — Finance** | 1991–1996
 
 ---
 
 ## CORE COMPETENCIES
 
-Enterprise ERP • Professional Services • Business Process Analysis • Financial Operations • Project Accounting • Payroll • SQL • Reporting & Analytics • Operational Modeling • Systems Thinking • AI-Assisted Engineering
+Enterprise ERP • Professional Services • Business Process Analysis • Financial Operations • Project Accounting • Payroll • SQL • Crystal Reports • Reporting & Analytics • Operational Modeling • Systems Thinking • AI-Assisted Engineering
