@@ -50,15 +50,16 @@ These numbers reflect sustained, deliberate construction — not a design exerci
 
 ---
 
-## Portfolio Structure
+## Portfolio Documents
 
-This repository contains representative artifacts from the GildMark architectural process:
+Start here for context on the problem GildMark addresses:
+- [The Problem Worth Solving](docs/GildMark_Domain_Narrative.md) — a domain perspective from the architect
 
-- **Architectural Decision Register** — 73 cross-cutting decisions governing what the system is and how it may evolve
-- **Platform Backlog** — prioritized capability roadmap with architectural rationale
-- **High-Level Build Plan** — phased construction sequence and dependency graph
-- **Engineering Handoff** — session-level build history and schema authority record
-- **API Documentation** — endpoint inventory for completed subsystems
+For the architectural reasoning behind key design decisions:
+- [Selected Architectural Decisions](docs/GildMark_Selected_Architectural_Decisions.md)
+
+For build state and evidence:
+- [Technical Evidence Summary](docs/GildMark_Technical_Evidence_Summary.md)
 
 ---
 

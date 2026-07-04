@@ -18,6 +18,5 @@ __pycache__/
 *.log
 
 # Exclude entire directories
-assets/
-docs/
-evidence/
+archive/
+
