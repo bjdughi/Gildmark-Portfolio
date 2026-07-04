@@ -14,11 +14,13 @@ It is not a reimplementation of conventional ERP. It is an alternative to it.
 
 ## The Architectural Premise
 
-Conventional ERP governs operations through journal entries and screens. A job closes because someone runs a close procedure. A period closes because an accounting manager initiates it. The system trusts the user to know when the business is ready.
+Conventional ERP governs operations through journal entries and screens. A job closes because someone runs a close procedure. A period closes because an accounting manager initiates it. The system has no opinion about whether the business is actually ready. The consequences of acting prematurely — unrecognized costs, unreleased retainage, open purchase commitments, unposted accruals — surface later as reconciling problems.
 
-GildMark inverts that model. Operations are governed by state. A job doesn't close because a user closes it — it closes when every outstanding obligation has reached terminal state: costs recognized, retainage released, warranty reserve established, subcontract and purchase commitments reconciled, unused material returned to inventory. The system knows when the job is done. The user doesn't have to.
+GildMark inverts that model. Operations are governed by state awareness, gates, and constraints that ensure landed postings are truthful and accurate.
 
-The same principle governs period close. A period doesn't close because someone runs the close procedure — it closes when every open job has been properly dispositioned, every unvouchered payable recorded, every payroll accrual posted, and every WIP adjustment made. Incomplete conditions surface as blocking states, not as reconciling items discovered after the fact.
+Job close is a governed state transition. The transition cannot occur until every outstanding obligation has reached terminal state: costs recognized, retainage released, warranty reserve established, subcontract and purchase commitments reconciled, unused material returned to inventory. Incomplete conditions surface as blocking states at the point of transition — not as reconciling items discovered after the fact.
+
+The same principle governs period close. The transition to a closed period cannot occur until every open job has been properly dispositioned, every unvouchered payable recorded, every payroll accrual posted, and every WIP adjustment made. The period doesn't close because someone initiates it — it closes because the system can verify that it is ready.
 
 This is not a workflow layer built on top of a conventional ledger. It is a different governing model entirely.
 
