@@ -1,8 +1,8 @@
 # GildMark — Selected Architectural Decisions
 
-This document presents four architectural decisions that illustrate GildMark's governing design philosophy. They are drawn from the full Architectural Decision Register, which contains 73 locked decisions across the platform.
+This document presents eight architectural decisions that illustrate GildMark's governing design philosophy. They are drawn from the full Architectural Decision Register, which contains 73 locked decisions across the platform.
 
-These four were selected because they are simultaneously non-obvious, consequential, and grounded in the operational reality of contractor accounting. Each one represents a place where the conventional ERP approach was considered and rejected.
+These eight were selected because they are simultaneously non-obvious, consequential, and grounded in the operational reality of contractor accounting. Each one represents a place where the conventional ERP approach was considered and rejected.
 
 ---
 
@@ -124,4 +124,4 @@ Most ERP systems treat unbudgeted postings as a reporting problem — the cost g
 
 ---
 
-*These decisions are drawn from GildMark's Architectural Decision Register (ADR Register v1.26, 73 locked decisions). The full register is available in this repository.*
+*These decisions are drawn from GildMark's Architectural Decision Register (ADR Register v1.26, 73 locked decisions). The full register is available upon request.*

@@ -92,9 +92,9 @@ GildMark was built using a disciplined AI-assisted engineering methodology.
 
 ## Verification
 
-The schema baseline, migration history, ADR register, and endpoint inventory are available in this repository. The test suite runs against a live PostgreSQL database and cannot be fabricated — passing tests require a correctly provisioned schema, correctly seeded reference data, and correctly implemented service logic.
+The test suite runs against a live PostgreSQL database and cannot be fabricated — passing tests require a correctly provisioned schema, correctly seeded reference data, and correctly implemented service logic.
 
-A technically sophisticated reader who wants to verify the architectural claims in this portfolio should start with the Architectural Decision Register, which contains the reasoning behind 73 locked decisions, and the Engineering Handoff, which contains the complete build history. The session-close documents referenced throughout the Handoff are the primary evidence artifacts — they record what was built, what was found, and what was decided, at the session level, throughout the construction of the platform.
+The full evidence set — schema baseline, migration history, ADR register, endpoint inventory, and session-close documents — is available upon request. The session-close documents are the primary evidence artifacts: they record what was built, what was found, and what was decided at the session level, throughout the construction of the platform. A technically sophisticated reader who wants to verify the architectural claims in this portfolio is welcome to engage directly.
 
 ---
 
