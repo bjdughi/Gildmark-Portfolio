@@ -1,156 +1,71 @@
-# \# Gildmark Portfolio
+# GildMark ERP
 
-# 
+**An alternative architecture for contractor enterprise software.**
 
-# This repository curates the Gildmark platform as evidence of enterprise architecture, systems thinking, AI-assisted software engineering, and technical leadership.
+---
 
-# 
+## What GildMark Is
 
-# Gildmark is a Lifecycle Governance Platform built on principles of State-Driven Operations and powered by an Operational Truth Engine.
+GildMark is an ERP platform designed from the ground up for specialty contractors — HVAC, refrigeration, plumbing, electrical, and mechanical organizations operating simultaneously across construction, field service, and preventive maintenance.
 
-# 
+It is not a reimplementation of conventional ERP. It is an alternative to it.
 
-# This portfolio is not the development repository. It is the communication layer for the work: a structured body of evidence showing how the system was conceived, governed, designed, implemented, and evaluated.
+---
 
-# 
+## The Architectural Premise
 
-# \## Purpose
+Conventional ERP governs operations through journal entries and screens. A job closes because someone runs a close procedure. A period closes because an accounting manager initiates it. The system trusts the user to know when the business is ready.
 
-# 
+GildMark inverts that model. Operations are governed by state. A job doesn't close because a user closes it — it closes when every outstanding obligation has reached terminal state: costs recognized, retainage released, warranty reserve established, subcontract and purchase commitments reconciled, unused material returned to inventory. The system knows when the job is done. The user doesn't have to.
 
-# The purpose of this repository is to support:
+The same principle governs period close. A period doesn't close because someone runs the close procedure — it closes when every open job has been properly dispositioned, every unvouchered payable recorded, every payroll accrual posted, and every WIP adjustment made. Incomplete conditions surface as blocking states, not as reconciling items discovered after the fact.
 
-# 
+This is not a workflow layer built on top of a conventional ledger. It is a different governing model entirely.
 
-# \- resume positioning
+---
 
-# \- interview preparation
+## Where the Insight Comes From
 
-# \- consulting credibility
+GildMark was not designed in the abstract. It emerged from more than two decades of implementing and supporting ERP software for specialty contractors across the United States and Canada — organizations where the gap between what the system reports and what is operationally true is not a configuration problem. It is an architectural one.
 
-# \- architectural storytelling
+Conventional ERP architecture doesn't fail these organizations because of missing features. It fails because the governing model is wrong. Journal entries and screens cannot represent the operational reality of a contractor job. GildMark is an attempt to build from a model that can.
 
-# \- executive-level explanation
+---
 
-# \- evidence-based claims about technical judgment
+## Current Implementation Status
 
-# 
+GildMark is in architectural and design phase — there is no UI. The foundation is built as infrastructure: schema, seed, APIs, and test coverage for well-defined core subsystems.
 
-# \## Audience
+Completed subsystems include accounts receivable, accounts payable, and inventory. The accounting kernel — double-entry ledger, immutable journal entries, and mechanically enforced posting invariants — underlies all of them.
 
-# 
+**Current build metrics (as of July 2026):**
 
-# This portfolio is written for:
+- 213 executed schema migrations
+- 1,042 passing tests against a live database
+- 73 registered architectural decisions
 
-# 
+These numbers reflect sustained, deliberate construction — not a design exercise.
 
-# \- hiring managers
+---
 
-# \- principal engineers
+## Portfolio Structure
 
-# \- enterprise architects
+This repository contains representative artifacts from the GildMark architectural process:
 
-# \- CTOs
+- **Architectural Decision Register** — 73 cross-cutting decisions governing what the system is and how it may evolve
+- **Platform Backlog** — prioritized capability roadmap with architectural rationale
+- **High-Level Build Plan** — phased construction sequence and dependency graph
+- **Engineering Handoff** — session-level build history and schema authority record
+- **API Documentation** — endpoint inventory for completed subsystems
 
-# \- consulting clients
+---
 
-# \- investors
+## A Note on Methodology
 
-# 
+GildMark was built using a disciplined AI-assisted engineering methodology — Claude for architectural reasoning and decision governance, Claude Code for database-grounded migration authoring. Every architectural decision is documented, every schema change is traceable, and every implementation is test-verified before it is locked.
 
-# \## Repository Structure
+The methodology is part of what the portfolio demonstrates.
 
-# 
+---
 
-# \- `docs/00-executive-summary` — concise overview of Gildmark and its significance
-
-# \- `docs/01-architecture-thesis` — core architectural argument
-
-# \- `docs/02-design-principles` — governing design principles
-
-# \- `docs/03-system-architecture` — system-level architecture explanation
-
-# \- `docs/04-representative-services` — selected services that demonstrate design maturity
-
-# \- `docs/05-engineering-process` — process, governance, documentation, and delivery discipline
-
-# \- `docs/06-ai-collaboration` — AI-assisted engineering methodology
-
-# \- `docs/07-architectural-essays` — written essays explaining architectural philosophy
-
-# \- `docs/08-resume-assets` — resume bullets, role narratives, and positioning material
-
-# \- `docs/09-interview-materials` — interview answers, STAR stories, and talking points
-
-# \- `evidence/` — supporting artifacts, excerpts, diagrams, and source references
-
-# 
-
-# \## Guiding Principle
-
-# 
-
-# Every claim in this portfolio should trace to evidence.
-
-# 
-
-# If a resume bullet, essay, or interview talking point cannot be supported by a concrete artifact, decision, document, implementation, or design pattern, it should be revised or removed.
-
-# 
-
-# \## Portfolio Thesis
-
-# 
-
-# Gildmark demonstrates that a domain expert with strong architectural judgment can use AI-assisted development methods to produce a coherent enterprise software architecture.
-
-# 
-
-# The value of the work is not limited to the product concept. The portfolio demonstrates:
-
-# 
-
-# \- domain modeling
-
-# \- architectural governance
-
-# \- API-first design
-
-# \- state-driven operations
-
-# \- decision traceability
-
-# \- software delivery discipline
-
-# \- AI collaboration methodology
-
-# \- technical communication
-
-# \- strategic product thinking
-
-# 
-
-# \## Current Status
-
-# 
-
-# This repository is in early portfolio construction.
-
-# 
-
-# Initial priorities:
-
-# 
-
-# 1\. establish the portfolio structure
-
-# 2\. create the Evidence Register
-
-# 3\. draft the Executive Summary
-
-# 4\. draft the Architecture Thesis
-
-# 5\. identify representative services
-
-# 6\. create resume and interview assets
-
+*GildMark is an independent architectural initiative. It is not affiliated with any employer, past or present.*

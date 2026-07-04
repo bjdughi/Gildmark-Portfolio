@@ -73,19 +73,9 @@ Provided implementation consulting for ERP software serving project-based organi
 
 ### Gildmark — Enterprise Architecture Portfolio | 2026–Present
 
-Independently developed an evidence-based portfolio demonstrating enterprise systems architecture through representative software, engineering methodology, architectural documentation, and responsible AI-assisted engineering.
+Independently designed a production-grade specialty contractor ERP architecture — encompassing double-entry accounting, job costing, payroll, procurement, inventory, and field service operations — applying kernel-first design principles, immutable ledger architecture, and mechanically enforced accounting invariants. The project demonstrates architectural judgment, systems thinking, and domain expertise through documented engineering methodology and a fully realized schema foundation.
 
-Representative topics include:
-
-* Enterprise systems architecture
-* Lifecycle governance
-* Operational modeling
-* Service-oriented design
-* Architecture decision records
-* Engineering methodology
-* Technical communication
-
-Portfolio: ______________________
+Portfolio: accessible upon request
 
 ---
 
@@ -93,7 +83,7 @@ Portfolio: ______________________
 
 **Master of Business Administration** — Management | University of Akron | 1997–1998
 
-**Bachelor of Science — Finance** | 1991–1996
+**Bachelor of Science — Finance** | University of Akron | 1991–1996
 
 ---
 
