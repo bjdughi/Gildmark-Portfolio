@@ -1,3 +1,23 @@
-/assets
-/docs
-/evidence
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (if any scripts land here)
+__pycache__/
+*.pyc
+*.pyo
+
+# Temp files
+*.tmp
+*.log
+
+# Exclude entire directories
+assets/
+docs/
+evidence/
