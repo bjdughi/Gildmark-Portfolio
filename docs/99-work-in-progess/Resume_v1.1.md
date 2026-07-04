@@ -21,7 +21,7 @@ Seeking opportunities where deep ERP experience, operational insight, and discip
 ## PROFESSIONAL EXPERIENCE
 
 ### Data-Basics, Inc. *(a Jonas Software USA LLC company)* — Bedford, Ohio
-**Senior Software Consultant** | 2015–2026 *(and previously 1999–2007)*
+**Senior Software Consultant** | 2015–2026
 
 Provided implementation consulting for ERP software serving project-based organizations throughout the United States and Canada.
 
@@ -58,6 +58,17 @@ Implemented enterprise governance and compliance software for commercial clients
 
 ---
 
+### Data-Basics, Inc. *(a Jonas Software USA LLC company)* — Bedford, Ohio
+**Software Consultant** | 1999–2007
+
+Provided implementation consulting for ERP software serving project-based organizations throughout the United States and Canada.
+
+* Led ERP implementations spanning accounting, payroll, job costing, procurement, inventory, billing, and financial operations.
+* Resolved complex customer implementation and production issues through disciplined analytical reasoning.
+* Built long-term client relationships through technical competence, responsiveness, and consistent delivery.
+
+---
+
 ## INDEPENDENT PROFESSIONAL WORK
 
 ### Gildmark — Enterprise Architecture Portfolio | 2026–Present
@@ -82,7 +93,7 @@ Portfolio: ______________________
 
 **Master of Business Administration** — Management | University of Akron | 1997–1998
 
-**Bachelor of Science — Finance** | University of Akron | 1991–1996
+**Bachelor of Science — Finance** | 1991–1996
 
 ---
 
