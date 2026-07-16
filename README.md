@@ -42,8 +42,8 @@ Completed subsystems include accounts receivable, accounts payable, and inventor
 
 **Current build metrics (as of July 2026):**
 
-- 213 executed schema migrations
-- 1,042 passing tests against a live database
+- 217 executed schema migrations
+- 1,103 passing tests against a live database
 - 73 registered architectural decisions
 
 These numbers reflect sustained, deliberate construction — not a design exercise.
